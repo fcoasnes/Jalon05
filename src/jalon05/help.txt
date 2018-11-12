@@ -1,0 +1,13 @@
+Welcome to the chat made by COASNES Florian and AHOUZI Anas. You should respect the other users of the chat. Violent and vulgaire speech are forbidden. Please check the below command to use well the chat.
+    -/nick <pseudo> : to change your pseudo
+    -/who : to check connected users
+    -/whois <pseudo> : to have information about this users
+    -/which : to see channel connected
+    -/msgall <msg> : to make a broadcast message
+    -/<pseudo> <msg> : to send a private message to someone
+    -/create <channel_name> : to create a new channel_name
+    -/join <channel_name> : to join a channel already existing
+    -/quitc : to quit your current channel
+    -/whoin <channel_name> : to see user connected in this channel
+    -/send <pseudo> <file_to_sen> : in order to send a document
+    -/quit : to disconnect from the chat

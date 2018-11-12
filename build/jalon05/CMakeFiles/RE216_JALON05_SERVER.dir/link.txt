@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/RE216_JALON05_SERVER.dir/fctsocket.c.o CMakeFiles/RE216_JALON05_SERVER.dir/channel.c.o CMakeFiles/RE216_JALON05_SERVER.dir/gestion_pseudo.c.o CMakeFiles/RE216_JALON05_SERVER.dir/couleur.c.o CMakeFiles/RE216_JALON05_SERVER.dir/server.c.o  -o RE216_JALON05_SERVER 

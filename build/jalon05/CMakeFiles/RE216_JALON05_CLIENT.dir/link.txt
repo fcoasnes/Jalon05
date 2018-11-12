@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/RE216_JALON05_CLIENT.dir/fctsocket.c.o CMakeFiles/RE216_JALON05_CLIENT.dir/client.c.o CMakeFiles/RE216_JALON05_CLIENT.dir/couleur.c.o CMakeFiles/RE216_JALON05_CLIENT.dir/send_mode.c.o CMakeFiles/RE216_JALON05_CLIENT.dir/rcvd_mode.c.o  -o RE216_JALON05_CLIENT 
