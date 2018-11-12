@@ -25,13 +25,10 @@ void receive_file(char *pseudo)
   char answer[100];
   char file_to_save[10000];
   sock_host=get_addr_info("127.0.0.6", atoi("8088"));
-  int lvl=1;
+
   int s = do_socket(AF_INET, SOCK_STREAM, 0);
-
   do_connect(s, (const struct sockaddr*)&sock_host, sizeof(struct sockaddr));
-
   fflush(stdout);
-
   nfds_t nfds=2;
   struct pollfd *fds = malloc(20*sizeof(struct pollfd));
   memset(fds,0,sizeof(fds));

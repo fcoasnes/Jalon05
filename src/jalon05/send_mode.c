@@ -60,9 +60,11 @@ void send_file(char *pseudo_sender, char *path, char *pseudo_receiver)
   fds[0].events = POLLIN;
   fds[1].fd = STDIN_FILENO;
   fds[1].events = POLLIN;
+  
   strcpy(info,pseudo_sender);
   strcat(info," want to send you a file, do you accept [y/n]\n");
   do_write(socknew,info,1000);
+
   while(boucle==0)
   {
     memset(answer,0,100);
