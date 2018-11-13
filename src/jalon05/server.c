@@ -237,7 +237,11 @@ int main(int argc, char** argv)
             else if(actuel->init_ps==1) //le pseudo a été initialisé donc il peut communiquer avec le chat
             {
               len = do_read(fds[i].fd,msg_rcvd,maxlen);    //read what the client has to say
-
+              if (len<=0)
+              {
+              }
+              else
+              {
               if(strcmp(msg_rcvd,"/quit\n")== 0)
               {
                 if (strcmp(actuel->channel,"")!=0)
@@ -554,6 +558,7 @@ int main(int argc, char** argv)
               }
             }
           }
+        }
           actuel=actuel->next;
         }
       }

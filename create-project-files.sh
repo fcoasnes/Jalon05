@@ -8,5 +8,6 @@ cmake -G"Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug ../src/
 make
 cd ..
 cp ./src/jalon05/help.txt ./build/jalon05
+cp ./src/jalon05/logo.jpg ./build/jalon05
 mkdir ./build/jalon05/Download_file
 
